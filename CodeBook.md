@@ -19,7 +19,8 @@ RAW DATA
 TIDY DATA
 
   The tidy data set created from the RAW DATA using the run_analysis.R script has 180 rows (observations) and 81 columns(variables - subject, activity, 79 measurements).
-  It contains the average values of each 79 measurements for each subject and each activity.
+  It contains the average values of each 79 measurements for each subject and each activity. The 79 measurements
+  
 
 VARIABLE NAMES
 
@@ -31,4 +32,4 @@ VARIABLE NAMES
       * SITTING: subject was sitting
       * STANDING: subject was standing
       * LAYING: subject was laying
-	- 
+  - 
