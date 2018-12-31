@@ -19,9 +19,8 @@ RAW DATA
 TIDY DATA
 
   The tidy data set created from the RAW DATA using the run_analysis.R script has 180 rows (observations) and 81 columns(variables - subject, activity, 79 measurements).
-  It contains the average values of each 79 measurements for each subject and each activity. The 79 measurements
+  It contains the average values of each 79 measurements for each subject and each activity. The 79 measurements represent the estimate variables coming from the accelerometer and gyroscope 3-axial raw signals where the acceleration measurements (variables containing 'accelerometer') were made in g's (9.81 m.s⁻²) and gyroscope measurements (variables containing 'gyroscope') were made in radians per second (rad.s⁻¹).
   
-
 VARIABLE NAMES
 
   - subject - identify the subject, integer, ranges from 1 to 30
@@ -32,4 +31,82 @@ VARIABLE NAMES
       * SITTING: subject was sitting
       * STANDING: subject was standing
       * LAYING: subject was laying
-  - 
+  - timebodyaccelerometermeanX
+  - timebodyaccelerometermeanY
+  - timebodyaccelerometermeanZ
+  - timebodyaccelerometerstdevX
+  - timebodyaccelerometerstdevY
+  - timebodyaccelerometerstdevZ
+  - timegravityaccelerometermeanX
+  - timegravityaccelerometermeanY
+  - timegravityaccelerometermeanZ
+  - timegravityaccelerometerstdevX
+  - timegravityaccelerometerstdevY
+  - timegravityaccelerometerstdevZ
+  - timebodyaccelerometerjerkmeanX
+  - timebodyaccelerometerjerkmeanY
+  - timebodyaccelerometerjerkmeanZ
+  - timebodyaccelerometerjerkstdevX
+  - timebodyaccelerometerjerkstdevY
+  - timebodyaccelerometerjerkstdevZ
+  - timebodygyrosccopemeanX
+  - timebodygyrosccopemeanY
+  - timebodygyrosccopemeanZ
+  - timebodygyrosccopestdevX
+  - timebodygyrosccopestdevY
+  - timebodygyrosccopestdevZ
+  - timebodygyrosccopejerkmeanX
+  - timebodygyrosccopejerkmeanY
+  - timebodygyrosccopejerkmeanZ
+  - timebodygyrosccopejerkstdevX
+  - timebodygyrosccopejerkstdevY
+  - timebodygyrosccopejerkstdevZ
+  - timebodyaccelerometermagnitudemean
+  - timebodyaccelerometermagnitudestdev
+  - timegravityaccelerometermagnitudemean
+  - timegravityaccelerometermagnitudestdev
+  - timebodyaccelerometerjerkmagnitudemean
+  - timebodyaccelerometerjerkmagnitudestdev
+  - timebodygyrosccopemagnitudemean
+  - timebodygyrosccopemagnitudestdev
+  - timebodygyrosccopejerkmagnitudemean
+  - timebodygyrosccopejerkmagnitudestdev
+  - frequencybodyaccelerometermeanX
+  - frequencybodyaccelerometermeanY
+  - frequencybodyaccelerometermeanZ
+  - frequencybodyaccelerometerstdevX
+  - frequencybodyaccelerometerstdevY
+  - frequencybodyaccelerometerstdevZ
+  - frequencybodyaccelerometermeanFreqX
+  - frequencybodyaccelerometermeanFreqY
+  - frequencybodyaccelerometermeanFreqZ
+  - frequencybodyaccelerometerjerkmeanX
+frequencybodyaccelerometerjerkmeanY
+frequencybodyaccelerometerjerkmeanZ
+frequencybodyaccelerometerjerkstdevX
+frequencybodyaccelerometerjerkstdevY
+frequencybodyaccelerometerjerkstdevZ
+frequencybodyaccelerometerjerkmeanFreqX
+frequencybodyaccelerometerjerkmeanFreqY
+frequencybodyaccelerometerjerkmeanFreqZ
+frequencybodygyrosccopemeanX
+frequencybodygyrosccopemeanY
+frequencybodygyrosccopemeanZ
+frequencybodygyrosccopestdevX
+frequencybodygyrosccopestdevY
+frequencybodygyrosccopestdevZ
+frequencybodygyrosccopemeanFreqX
+frequencybodygyrosccopemeanFreqY
+frequencybodygyrosccopemeanFreqZ
+frequencybodyaccelerometermagnitudemean
+frequencybodyaccelerometermagnitudestdev
+frequencybodyaccelerometermagnitudemeanFreq
+frequencybodybodyaccelerometerjerkmagnitudemean
+frequencybodybodyaccelerometerjerkmagnitudestdev
+frequencybodybodyaccelerometerjerkmagnitudemeanFreq
+frequencybodybodygyrosccopemagnitudemean
+frequencybodybodygyrosccopemagnitudestdev
+frequencybodybodygyrosccopemagnitudemeanFreq
+frequencybodybodygyrosccopejerkmagnitudemean
+frequencybodybodygyrosccopejerkmagnitudestdev
+
